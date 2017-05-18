@@ -1,0 +1,125 @@
+body,input{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header-container,
+#info-container
+ {
+	background-color: #99c84a;
+	color: white;
+}
+#header-container .login,
+#header-container .navbar-toggler{
+	color: white;
+}
+#menu-container{
+	background-color: #f7f7f9;
+}
+ul.navbar-nav
+{
+	flex-direction: row;
+}
+ul.navbar-nav li{
+	margin-right: 10px;
+}
+.btn.btn-ishop{
+	background-color: #99c84a;
+	color: white;
+}
+.btn.btn-ishop:hover{
+	background-color: #8ab542;
+}
+input.form-control:focus{
+	border-color: #99c84a;
+}
+#search-bar{
+	padding: 1em;
+}
+#productosCarousel img{
+	margin:0 auto;
+}
+span .carousel-control-prev-icon{
+	color: black;
+}
+#info-container h4{
+	margin: 1em 0;
+}
+#info-container img{
+
+height: 288px;
+
+margin: 0 auto;
+
+margin-top: 2em; 
+
+}
+#footer-container{
+	background-color: #1c3643;
+	color: white;
+	padding: 3em 0;
+}
+#footer-container h4{
+	font-size: 16px;
+}
+#footer-container .nav-link{
+	color: white;
+}
+ul#navi{
+	flex-direction: column;
+}
+
+@media screen and (max-width: 768px){
+	ul.navbar-nav{
+		flex-direction: column;
+	}
+
+	#footer-container [class*="col-"] {
+    margin-bottom: 2em;
+  }
+  .listado-productos{
+  	margin-top: 1em;
+  }
+  .listado-productos .card-img-top{
+  	width: 100%;
+  }
+}
+#breadcrumbs-container .breadcrumb{
+ background-color: white;
+ padding-left: 0;
+}
+#breadcrumbs-container .breadcrumb .breadcrumb-item{
+	color: #1c3643;
+}
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active{
+	color: #95a5a6;
+}
+#breadcrumbs-container .breadcrumb-item+.breadcrumb-item::before{
+	content: ">";
+}
+#filtros-container{
+	margin-bottom: 2em;
+}
+#filtros-container .list-group-item-action.active{
+background-color: #99c84a;
+border-color: #99c84a;
+}
+#productos-container .list-group+.list-group{
+	margin-top: 1em;
+}
+@media screen and (max-width: 768px){
+	#productos-container .filtros-toggle{
+		margin-bottom: 1em;
+	}
+}
+ .card{
+ 	margin-bottom: 1em;
+ }
+ #paginator-container .page-item:not(.active):not(.disabled) .page-link{
+ 	color:#99c84a;
+ }
+#paginator-container .page-item.active .page-link,
+ .page-item.active .page-link:focus,
+  .page-item.active .page-link:hover{
+	background-color: #99c84a;
+	border-color: #99c84a;
+}
